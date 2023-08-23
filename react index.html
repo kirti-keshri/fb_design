@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>react</title>
+    <style>
+      * {
+        margin: 0%;
+      }
+      .navbar {
+        height: 50px;
+        width: 100%;
+        background-color: #041621;
+        justify-content: space-between;
+        display: flex;
+        /* padding: 50px 25px ; */
+        align-items: center;
+      }
+      .img {
+        height: 55px;
+        width: 100%;
+        margin-left: 95%;
+      }
+      .link,ul {
+        display: flex;
+        list-style: none;
+      }
+      .link,ul,li {
+        padding-right: 30px;
+        font-size: 20px;
+        /* list-style: none; */
+      }
+      .link,ul,li,a {
+        text-decoration: none;
+        color: white;
+      }
+      .head {
+        height: 100vh;
+        width: 100%;
+        background-color: #041621;
+        color: white;
+        /* align-items: center;
+            justify-items: center;
+            justify-content: center;  */
+        text-align: center;
+      }
+      .pic,img {
+        height: 50vh;
+        /* width: 70vh; */
+        /* justify-items: center; */
+        display: inline;
+      }
+      h1 {
+        font-size: 50px;
+      }
+      h2 {
+        font-size: 35px;
+      }
+      /* .buttons,button{
+            height: 90px;
+            width: 50px;
+            display: flex;
+            text-align: center;
+            display: inline;
+        } */
+      .buttons,button {
+        padding: 20px 30px;
+        font-size: 20px;
+        border-radius: 45px;
+        font-weight: 600;
+      }
+      .b1 {
+        background-color: #00aaffe6;
+        color: white;
+        border: 2px solid #ddd;
+      }
+      .b2 {
+        background-color: #041621;
+        color: white;
+        border: 2px solid #ddd;
+      }
+      .b1:hover {
+        background-color: #01557f;
+      }
+      input {
+        width: 90vh;
+        padding: 8px;
+        border-radius: 50px;
+        background-color: #042332;
+        border: 1px solid;
+      }
+      select{
+        border-radius: 5px;
+        /* padding: 5px 4px; */
+        background-color: #042332;
+        color: white;
+        font-size: 20px;
+        margin-top: -15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <a href=""><img src="logo.jpg" alt="" class="img" /></a>
+      </div>
+      <form action="">
+        <input type="text" placeholder="Search" />
+      </form>
+      <div class="link">
+        <ul>
+          <li><a href="">Learn</a></li>
+          <li><a href="">Reference</a></li>
+          <li><a href="">Community</a></li>
+          <li><a href="">Blog</a></li>
+          <li>
+              <select name="" id="">
+                <option value="">Language</option>
+                <option value="">Hindi</option>
+                <option value="">English</option>
+                <option value="">Punjabi</option>
+              </select>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="head">
+      <div class="pic"><img src="logo.jpg" alt="" /></div>
+      <h1>React</h1>
+      <h2>The library for web and native <br />user interfaces</h2>
+      <div class="buttons">
+        <button class="b1"><a href="">Learn React</a></button>
+        <button class="b2"><a href="">API Reference</a></button>
+      </div>
+    </div>
+  </body>
+</html>
